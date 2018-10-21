@@ -1,0 +1,11 @@
+/* miniprogram/pages/sell/sell.wxss  卖书 */
+.image{
+  width: 100px;
+  height: 100px;
+  background-color: white;
+   margin: 30px auto;
+}
+.block{
+ 
+  display: block;
+}

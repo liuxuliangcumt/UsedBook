@@ -1,0 +1,25 @@
+<!--miniprogram/pages/scanResult/scanResult.wxml-->
+<view>
+  <view class='imageparent'>
+    <image class='image' mode='aspectFit' src='{{image}}'></image>
+  </view>
+  <view class='textparent'>
+    <text class='title'>{{title}}</text>
+    <text class='block'>{{'作者：'+author[0]}}</text>
+    <text>{{'出版：'+publisher}}</text>
+    <text>{{'ISBN：'+isbn13}}</text>
+    <text>{{"价格："+price}}</text>
+    <view class='line'></view>
+    <text class='smaletitle'>介绍</text>
+    <text>{{summary}}</text>
+    <view class='line'></view>
+    <text class='smaletitle'>关于作者</text>
+    <text>{{author_intro}}</text>
+  </view>
+  <view class='viewSell'>
+    <text class='sell'>售价</text>
+    <form>
+      <input class='sellPrice' id='sellPrice'></input>
+    </form>
+  </view>
+</view>

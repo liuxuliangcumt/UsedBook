@@ -1,0 +1,39 @@
+{
+  "cloud": true,
+  "pages": [
+    "pages/buy/buy",
+    "pages/main/main",
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/bookDetail/bookDetail",
+    "pages/sell/sell",
+    "pages/scanResult/scanResult"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/buy/buy",
+        "text": "买书"
+      },
+      {
+        "pagePath": "pages/sell/sell",
+        "text": "卖书"
+      }
+    ]
+  }
+}

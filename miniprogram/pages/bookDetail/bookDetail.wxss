@@ -1,0 +1,19 @@
+/* miniprogram/pages/bookDetail/bookDetail.wxss */
+
+.pic {
+  
+  width: 100%;
+}
+.block{
+  display: block;
+  margin: 10px;
+}
+.price{
+  text-align: start;
+  color: red;
+  font-size: 20px;
+}
+.bookname{
+  font-size: 25px;
+  color: black;
+}

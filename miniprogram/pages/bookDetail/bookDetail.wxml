@@ -1,0 +1,12 @@
+<!--miniprogram/pages/bookDetail/bookDetail.wxml-->
+<view>
+<image class='pic' src='{{book.pic[0]}}'></image>
+<text class='block bookname'>{{book.bookname}}</text>
+<text class='block detail'>{{book.detail}}</text>
+<text class='block grade'>{{'适用年级：'+ book.grade}}</text>
+<text class='block price'>{{'$'+book.price}}</text>
+
+
+
+
+</view>

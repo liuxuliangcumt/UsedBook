@@ -1,0 +1,19 @@
+<!--miniprogram/pages/main/main.wxml-->
+<view class='parent'>
+
+  <text class='title'>卖书 填写详细信息</text>
+  <form bindsubmit='addBook' class='form'>
+    <input type='text' class='input' name='bookname' placeholder="请输入书名"></input>
+    <input type='number' class='input' name='price' placeholder='价   格'></input>
+    <input type='text' class='input' name='grade' placeholder='适 用 年 级'></input>
+    <input value='{{detail}}' type='text' class='input' name='detail' placeholder='详 细 描 述'></input>
+    <text class='text' >请添加书籍正面照</text>
+    <image mode='aspectFit' class='image' id='pic1' bindtap='takePic' src='{{pic1}}' />
+    <text class='text'>请添加书籍反面照</text>
+    <image mode='aspectFit' class='image' id='pic2' bindtap='takePic' src='{{pic2}}' />
+
+    <button class='login'   form-type='submit'>提交</button>
+  </form>
+
+
+</view>

@@ -1,0 +1,13 @@
+<!--miniprogram/pages/buy/buy.wxml-->
+<view>
+  <view class='book' wx:for="{{books}}" bindtap='bookDetail' data-index='{{index}}'>
+    <image class='bookpic' src='{{item.pic[0]}}'></image>
+    <view class='booktextparent'>
+      <text class='bookitem'>{{item.bookname}}</text>
+      <text class='bookitem'>{{item.grade}}</text>
+      <text class='bookitem'>{{item.detail}}</text>
+    </view>
+
+
+  </view>
+</view>

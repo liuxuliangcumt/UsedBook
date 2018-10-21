@@ -1,0 +1,6 @@
+<!--miniprogram/pages/sell/sell.wxml   卖书-->
+ 
+<view>
+<image class="image block" src="{{scan}}" bindtouchstart='touchstart' bindtouchend='touchend' bindtap='scanBar'></image>
+
+</view>
